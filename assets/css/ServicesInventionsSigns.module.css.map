@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Services/ServicesInventions/ServicesInventionsSigns/ServicesInventionsSigns.module.scss"
+    ],
+    "names": [],
+    "file": "ServicesInventionsSigns.module.css"
+}

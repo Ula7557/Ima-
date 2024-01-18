@@ -1,0 +1,119 @@
+.projects {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.projects__inner {
+  background-color: #fff;
+  padding: 65px 70px;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects__inner {
+    padding: 48px 20px 27px 20px;
+    margin-bottom: 87px;
+  }
+}
+
+.projects__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 47px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects__title {
+    font-size: var(--font-size24);
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.projects__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 30px;
+  max-width: 423px;
+  margin-bottom: 34px;
+  color: #1d213f;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects__subtitle {
+    font-size: var(--font-size18);
+    line-height: 24px;
+    margin-bottom: 19px;
+  }
+}
+
+.projects h4 {
+  max-width: 525px !important;
+}
+
+.projects__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 26px;
+  max-width: 769px;
+  color: #1d213f;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects__text {
+    font-size: var(--font-size16);
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+}
+
+.projects__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.projects__text.projects__rounded {
+  padding-left: 30px;
+  position: relative;
+}
+
+.projects__text.projects__rounded::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #0065dd;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.projects__text.projects__roundedd {
+  padding-left: 30px;
+  position: relative;
+}
+
+.projects__text.projects__roundedd::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #0065dd;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.projects__holder {
+  max-width: 800px;
+}
+/*# sourceMappingURL=Projects.module.css.map */

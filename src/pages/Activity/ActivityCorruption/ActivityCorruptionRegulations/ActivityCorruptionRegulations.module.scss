@@ -1,0 +1,45 @@
+.activity__corruption__regulations {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    &:not(:last-child) {
+      padding-bottom: 43px;
+      border-bottom: 1px solid #dde1ea;
+
+      @media only screen and (max-width: 768px) {
+        padding: 0;
+        border-bottom: none;
+        margin-bottom: 30px;
+      }
+    }
+
+    &:not(:first-child) {
+      padding-top: 44px;
+
+      @media only screen and (max-width: 768px) {
+        padding: 0;
+      }
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: #0065dd;
+    text-decoration: none;
+    max-width: 470px;
+
+    @media only screen and (max-width: 768px) {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

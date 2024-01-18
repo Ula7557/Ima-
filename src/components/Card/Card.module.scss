@@ -1,0 +1,93 @@
+.card_wrap {
+  padding: 40px 40px 32px 40px;
+  width: 30%;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-right: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 0;
+    height: 0;
+    transition: all ease 0.3s;
+  }
+
+  &:hover {
+    background: #ffffff;
+    box-shadow: 0px 20px 50px rgba(144, 158, 187, 0.2);
+    &::after {
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      top: 70px;
+      right: 40px;
+      position: absolute;
+      background-image: url(../../assets/images/right-arr.png);
+    }
+  }
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .card__wrapper {
+    margin-bottom: 33px;
+    border-radius: 50%;
+    background: #f1f2f5;
+    padding: 20px 25px 20px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+  }
+
+  .card_icon {
+    object-fit: cover;
+  }
+
+  .card_bold_txt {
+    font-weight: 500;
+    font-size: var(--font-size18);
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #1d213f;
+  }
+
+  .card_light_txt {
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: #8b91a9;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .card_wrap:nth-child(3n) {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card_wrap {
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  // services part
+  .card__wrapper{
+    margin-bottom: 20px !important;
+  }
+  .card_wrap {
+    // width: 240px;
+    padding: 20px 30px !important;
+  }
+  .card_bold_txt{
+    margin-bottom: 10px !important;
+  }
+}

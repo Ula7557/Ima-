@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AAAA,OAAO,CAAC;EACN,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,MAAM,EAXM,IAAI;EAYhB,WAAW,EAXE,MAAM;CAYpB",
+    "sources": [
+        "../../src/assets/styles/verble.scss"
+    ],
+    "names": [],
+    "file": "verble.css"
+}

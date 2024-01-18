@@ -1,0 +1,9 @@
+.international__organizations {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+       }
+}

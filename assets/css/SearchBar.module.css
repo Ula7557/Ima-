@@ -1,0 +1,35 @@
+.search_input_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.search_input_wrapper .search_input {
+  width: 100%;
+  background: #ffffff;
+  padding: 19px 20px;
+  outline: none;
+  border: none;
+  margin-bottom: 63px;
+  margin-right: 20px;
+}
+
+.search_input_wrapper .input_icon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 35px;
+  top: 19px;
+}
+
+@media only screen and (max-width: 968px) {
+  .search_input_wrapper {
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=SearchBar.module.css.map */

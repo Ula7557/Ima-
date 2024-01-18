@@ -1,0 +1,62 @@
+.CMICard {
+  width: 35%;
+  margin-bottom: 70px;
+  background: #f1f2f5;
+  padding: 50px;
+  margin-left: auto;
+}
+
+.CMICard .CMICard_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 30px;
+  color: #1d213f;
+  margin-bottom: 37px;
+}
+
+.CMICard .CMICard_item {
+  list-style: none;
+}
+
+.CMICard .CMICard_item li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+  margin-left: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.CMICard .CMICard_item li::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0065dd;
+  left: -20px;
+  top: 4px;
+}
+
+@media only screen and (max-width: 978px) {
+  .CMICard {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .CMICard .CMICard_title {
+    font-size: var(--font-size18);
+    line-height: 24px;
+  }
+  .CMICard {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=CMICard.module.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,aAAa;CAKjC;;AARD,AAII,QAJI,CAIJ,KAAK,CAAC;EACF,gBAAgB,EAAE,eAAe;EACjC,aAAa,EAAE,eAAe;CACjC",
+    "sources": [
+        "../../src/pages/InformationService/InformationServiseEditions/Indexes/Indexes.module.scss"
+    ],
+    "names": [],
+    "file": "Indexes.module.css"
+}

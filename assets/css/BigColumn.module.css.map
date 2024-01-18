@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,aAAa,EAAE,IAAI;CASpB;;AAVD,AAEE,MAFI,CAEJ,MAAM,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,kBAAkB;EAC7B,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "../../src/components/BigColumn/BigColumn.module.scss"
+    ],
+    "names": [],
+    "file": "BigColumn.module.css"
+}

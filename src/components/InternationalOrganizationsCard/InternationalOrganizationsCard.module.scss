@@ -1,0 +1,40 @@
+.international__organizations__card {
+  max-width: 230px;
+  @media only screen and (max-width: 768px) {
+    max-width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+   }
+  &__top {
+    background: #f1f2f5;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+     }
+
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: #1d213f;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 18px;
+    text-decoration: none;
+    color: #0065dd;
+  }
+}

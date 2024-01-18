@@ -1,0 +1,25 @@
+.lexuz__card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  &__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 26px;
+    display: block;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    max-width: 300px;
+    color: #0065dd;
+  }
+
+  &:nth-last-child(n + 4) {
+    margin-bottom: 60px;
+  }
+}

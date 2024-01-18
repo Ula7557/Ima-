@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../src/pages/Activity/ActivityCorruption/ActivityCorruptionMessage/ActivityCorruptionMessage.module.scss"
+    ],
+    "names": [],
+    "file": "ActivityCorruptionMessage.module.min.css"
+}

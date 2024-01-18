@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,aAAa;CAIjC;;AAPD,AAII,QAJI,CAIJ,KAAK,CAAA;EACD,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "../../src/pages/InformationService/InformationServiseEditions/Reportes/Reports.module.scss"
+    ],
+    "names": [],
+    "file": "Reports.module.css"
+}

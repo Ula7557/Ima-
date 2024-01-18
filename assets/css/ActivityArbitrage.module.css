@@ -1,0 +1,198 @@
+.ActivityArbitrage {
+  background: #f1f2f5;
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+
+.ActivityArbitrage .ActivityArbitrage_item {
+  margin-top: 35px;
+  background: #ffffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 63px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.ActivityArbitrage .ActivityArbitrage_item h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 21px;
+  color: #1d213f;
+  margin-bottom: 38px;
+}
+
+.ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_title h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+}
+
+.ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48px;
+  border-bottom: 1px solid #dde1ea;
+  margin-bottom: 61px;
+}
+
+.ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_menu ul li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size13);
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #8b91a9;
+  margin-right: 40px;
+  list-style: none;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.black_btn {
+  color: #1d213f !important;
+  position: relative;
+}
+
+.black_btn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border: 2px solid #1d213f;
+  background-color: #1d213f;
+  left: 0;
+  bottom: -19px;
+}
+
+.itemss {
+  margin-bottom: 30px;
+  width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 50px rgba(144, 158, 187, 0.2);
+          box-shadow: 0px 20px 50px rgba(144, 158, 187, 0.2);
+  padding-top: 30px;
+  padding-bottom: 27px;
+}
+
+.itemss span {
+  margin-left: 10px;
+}
+
+.itemss h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #222222;
+}
+
+.itemss h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+}
+
+.itemss h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size14);
+  line-height: 21px;
+  color: #8b91a9;
+}
+
+.itemss img {
+  margin-left: 20px;
+}
+
+.itemss:hover {
+  background-image: url("../../../assets/icons/Vector (32).png");
+  background-position: 95%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.ActivityArbitrage_itemss {
+  margin-top: 70px;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.ActivityArbitrage_itemss h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1D213F;
+}
+
+@media only screen and (max-width: 786px) {
+  .ActivityArbitrage_itemss {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ActivityArbitrage .ActivityArbitrage_item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ActivityArbitrage_item h2 {
+    background-color: #F1F2F5;
+    padding: 20px 14px;
+    font-size: var(--font-size18) !important;
+  }
+  .ActivityArbitrage {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .itemss:hover {
+    background-position: 95% 83% !important;
+  }
+  .ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_title h1 {
+    font-size: var(--font-size24);
+  }
+  .ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_menu ul {
+    width: 100%;
+    overflow: scroll;
+  }
+  .ActivityArbitrage .ActivityArbitrage_item .ActivityArbitrage_menu ul::-webkit-scrollbar {
+    width: 0;
+  }
+}
+/*# sourceMappingURL=ActivityArbitrage.module.css.map */

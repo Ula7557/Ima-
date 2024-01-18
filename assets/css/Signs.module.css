@@ -1,0 +1,78 @@
+.ServicesInventionsSigns {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 82px;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 24px;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul {
+  list-style: none;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul li {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul li:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #0065DD;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul .inner {
+  margin-top: 30px;
+}
+
+.ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul .inner::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .ServicesInventionsSigns {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle h2 {
+    font-size: var(--font-size18);
+    line-height: 24px;
+  }
+  .ServicesInventionsSigns .ServicesInventionsSigns_inner .ServicesInventionsSigns_inner_middle ul li {
+    font-size: var(--font-size16);
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=Signs.module.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,yBADqB,CACrB,WAAW,AAAC,CACR,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM,CACnB,SAAS,CAAE,kBAAkB,CAC7B,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,OAAO,CACd,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,KAAK,CACd,OAAO,CAAE,MAAM,CACf,QAAQ,CAAE,QAAQ,CAClB,UAAU,CAAE,aAAa,CACzB,WAAW,CAAE,QAAQ,CASxB,AArBL,AAcQ,yBAdiB,CACrB,WAAW,AAaN,OAAO,AAAC,CACP,OAAO,CAAE,EAAE,CACX,KAAK,CAAE,CAAC,CACR,MAAM,CAAE,CAAC,CACT,QAAQ,CAAE,MAAM,CAChB,UAAU,CAAE,aAAa,CAC1B",
+    "sources": [
+        "../../../src/pages/Services/PatentAttestation/PatentAttestationDocumet/PatentAttestationDocumet.module.scss"
+    ],
+    "names": [],
+    "file": "PatentAttestationDocumet.module.min.css"
+}

@@ -1,0 +1,80 @@
+.InformationServiseMedia {
+  background: #f1f2f5;
+  padding-top: 26px;
+  padding-bottom: 100px;
+  .InformationServiseMedia_inner {
+    background: #ffffff;
+    margin-top: 26px;
+    padding: 61px 70px 65px 70px;
+    h1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size40);
+      line-height: 50px;
+      color: #1d213f;
+      margin-bottom: 50px;
+    }
+    .InformationServiseMedia_inner_main {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 26px;
+        color: #1d213f;
+        width: 40%;
+      }
+    }
+    .InformationServiseMedia_inner_bottom {
+      h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: var(--font-size24);
+        line-height: 30px;
+        color: #1d213f;
+        width: 60%;
+        margin-bottom: 33px;
+      }
+    }
+  }
+}
+@media only screen and(max-width:978px) {
+  .InformationServiseMedia .InformationServiseMedia_inner .InformationServiseMedia_inner_main{
+    flex-direction: column;
+    align-items: center;
+  }
+  .InformationServiseMedia .InformationServiseMedia_inner .InformationServiseMedia_inner_main p{
+    width: auto;
+    margin-bottom: 51px;
+  }
+  
+}
+@media only screen and(max-width:500px) {
+  .InformationServiseMedia .InformationServiseMedia_inner{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .InformationServiseMedia .InformationServiseMedia_inner h1{
+    font-size: var(--font-size18);
+    line-height: 30px;
+  }
+  .InformationServiseMedia .InformationServiseMedia_inner .InformationServiseMedia_inner_main p{
+    font-size: var(--font-size16);
+    line-height: 24px;
+  }
+  .InformationServiseMedia .InformationServiseMedia_inner .InformationServiseMedia_inner_bottom h2{
+    font-size: var(--font-size18);
+    line-height: 24px;
+    background: #F1F2F5;
+    width: auto;
+    padding: 22px 20px 18px 20px;
+  }
+  
+}

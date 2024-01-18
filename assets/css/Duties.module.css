@@ -1,0 +1,63 @@
+.duties {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .duties {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.duties__inner {
+  background-color: #fff;
+  padding: 65px 70px;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .duties__inner {
+    padding: 48px 20px 27px 20px;
+    margin-bottom: 87px;
+  }
+}
+
+.duties__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 54px;
+}
+
+@media only screen and (max-width: 768px) {
+  .duties__title {
+    font-size: var(--font-size24);
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.duties__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 24px;
+  color: #0065dd;
+  display: block;
+  max-width: 815px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .duties__link {
+    font-size: var(--font-size16);
+    padding: 15px 10px;
+    padding-right: 40px;
+  }
+  .duties__link:hover {
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=Duties.module.css.map */

@@ -1,0 +1,64 @@
+.InformationServiseEditions {
+  background: #f1f2f5;
+  padding-top: 26px;
+  padding-bottom: 100px;
+  .InformationServiseEditions_inner {
+    margin-top: 26px;
+    background: #ffffff;
+    padding: 61px 70px 70px 70px;
+    h1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size40);
+      line-height: 50px;
+      color: #1d213f;
+      margin-bottom: 47px;
+    }
+    .InformationServiseEditions_inner_btn {
+      border-bottom: 1px solid #dde1ea;
+      padding-bottom: 17px;
+      margin-bottom: 60px;
+      .innerbtn_all {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: var(--font-size13);
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #8b91a9;
+        padding-bottom: 17px;
+        margin-right: 40px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width:600px) {
+  .InformationServiseEditions_inner_ul{
+    width: 450px;
+  }
+  .InformationServiseEditions .InformationServiseEditions_inner .InformationServiseEditions_inner_btn{
+    overflow: scroll;
+    &::-webkit-scrollbar{
+      width: 0;
+      height: 0;
+    }
+  }
+}
+@media only screen and (max-width:500px)  {
+  .InformationServiseEditions .InformationServiseEditions_inner{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .InformationServiseEditions .InformationServiseEditions_inner h1{
+    font-size: var(--font-size24);
+    line-height: 30px;
+  }
+
+
+
+  
+}

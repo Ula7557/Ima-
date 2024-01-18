@@ -1,0 +1,120 @@
+.subscribtion {
+  background: #f1f2f5;
+  padding: 30px 0;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size18);
+    line-height: 21px;
+    color: #1d213f;
+    .img_wrap {
+      border-radius: 50%;
+      background: #ffffff;
+      padding: 18px 15px 15px 15px;
+      margin-right: 20px;
+      .subscription_inner_txt {
+        font-size: var(--font-size18);
+      }
+    }
+  }
+  .input_wrapper {
+    display: flex;
+    input {
+      outline: none;
+      border: none;
+      width: 520px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #909ebb;
+      padding: 21px 0 20px 21px;
+      ::placeholder {
+        font-size: var(--font-size16);
+        line-height: 19px;
+        color:rgba(144, 158, 187, 1);
+;
+      }
+    }
+    button {
+      background: #0065dd;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: var(--font-size14);
+      line-height: 16px;
+      text-transform: uppercase;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      padding: 22px 34px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner {
+    margin: 0 20px;
+    align-items: flex-start;
+  }
+  .input_wrapper {
+    input {
+      width: 320px !important;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .inner {
+    flex-direction: column;
+    .subscribe_flex {
+      margin-bottom: 20px;
+      width: 55%;
+    }
+  }
+  .input_wrapper {
+    flex-direction: column;
+    width: 100%;
+    input {
+      width: 100% !important;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .inner {
+    flex-direction: column;
+    .subscribe_flex {
+      margin-bottom: 20px;
+      width: 80%;
+    }
+  }
+  .input_wrapper {
+    flex-direction: column;
+    input {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+    }
+  }
+}

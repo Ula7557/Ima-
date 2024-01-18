@@ -1,0 +1,119 @@
+.SliderModal{
+    
+        .modal_btn{
+        background-image: url('../../assets/icons/Vector\ \(46\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        border: 1px solid #FFFFFF;
+        background-color: #1D213F;
+        opacity: 0.9;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 32%;
+        z-index: 999;
+        &:hover{
+            background-image: url('../../assets/icons/Vector\ \(45\).png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-color: #FFFFFF;
+            transform: rotate(180deg);
+        }
+    }
+    .modal_btn2{
+        background-image: url('../../assets/icons/Vector\ \(46\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        transform: rotate(180deg);
+        width: 40px;
+        height: 40px;
+        border: 1px solid #FFFFFF;
+        background-color: #1D213F;
+        opacity: 0.9;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        right: 32%;
+        &:hover{
+            background-image: url('../../assets/icons/Vector\ \(45\).png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-color: #FFFFFF;
+            transform: rotate(0deg);
+        }
+    }
+}
+.modal{
+    position: fixed;
+    top: 7%;
+    z-index: 999;
+    img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.SliderModal_back{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background: #1D213F;
+    opacity: 0.9;
+    z-index: 111;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    padding: 15px 15px 0 0;
+    img{
+        cursor: pointer;
+    }
+}
+
+.slider_images_block {
+    width: 800px !important;
+    height: 600px !important;
+    display: flex !important;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:1650px) {
+    .SliderModal .modal_btn{
+        top: 114%;
+    }
+    .SliderModal .modal_btn2{
+        top: 114%;
+    }
+    
+}
+@media only screen and (max-width:500px)  {
+    .modal img{
+        width: 100%;
+    } 
+
+    .modal {
+        top: 25%;
+    }
+    
+.slider_images_block {
+    width: 100% !important;
+    height: 300px !important;
+    display: flex !important;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+}
+

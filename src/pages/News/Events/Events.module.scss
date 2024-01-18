@@ -1,0 +1,261 @@
+.events {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 768px) {
+    padding: 26px 20px 50px 20px;
+  }
+
+  &__inner {
+    background-color: #fff;
+    padding: 63px 70px;
+    box-sizing: border-box;
+    margin-top: 26px;
+    margin-bottom: 60px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 48px 40px 27px 20px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size40);
+    line-height: 47px;
+    color: #1d213f;
+    margin-bottom: 44px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: var(--font-size24);
+      line-height: 28px;
+      margin-bottom: 0;
+    }
+  }
+
+  .main__news__holder__max {
+
+    @media only screen and (max-width: 768px) {
+
+      &.holder__max {
+        .main__all__news {
+          display: none;
+        }
+
+        .main__news__holder__min {
+          label {
+            margin-bottom: 10px;
+            display: block;
+          }
+
+          &:last-child {
+            &::after {
+              content: "";
+              width: 20px;
+              height: 20px;
+              background-repeat: no-repeat;
+              position: absolute;
+              top: 0;
+              display: block !important;
+              bottom: 0;
+              right: 20px;
+              margin: auto;
+              background-image: url(../../../assets/icons/calendar.png);
+              background-size: contain;
+              z-index: 99;
+            }
+          }
+
+          &:not(:last-child) {
+            margin-bottom: 35px;
+          }
+        }
+
+        .main__news__holder__main {
+          display: block;
+          height: 50vh;
+        }
+      }
+
+      
+    }
+  }
+
+  .main__news__holder__main {
+    display: none;
+  }
+
+  .filter__img {
+    display: none;
+
+    &.filter_hide {
+      .close_btn {
+        display: block !important;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+
+      .filter_btn {
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+      border: none;
+      outline: none;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      // overflow: hidden;
+
+
+      .close_btn {
+        display: none;
+      }
+
+      .filter_btn {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+
+    }
+
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__holder {
+    width: 48%;
+    margin-bottom: 66px;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+
+    &:last-child {
+      .input {
+        ::-webkit-calendar-picker-indicator {
+          background-image: url(../../../assets/icons/date.png);
+          cursor: pointer;
+        }
+        &__text {
+          width: 100%;
+        }
+        &:last-child {
+          // &::after {
+          //     background-image: none;
+          //     display: none;
+          // }
+          &::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            display: block !important;
+            bottom: 0;
+            right: 20px;
+            margin: auto;
+            background-image: url(../../../assets/icons/calendar.png);
+            background-size: contain;
+            z-index: 99;
+          }
+        }
+      }
+    }
+  }
+
+  .input__date {
+    background-color: red;
+    &::after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      display: block !important;
+      bottom: 0;
+      right: 20px;
+      margin: auto;
+      background-image: url(../../../assets/icons/calendar.png) !important;
+      background-size: contain;
+      z-index: 99;
+    }
+  }
+
+  .submit__btn {
+    background: #0065DD;
+    padding: 17px 0;
+    width: 100%;
+    display: block;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size14);
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size16);
+    line-height: 19px;
+    color: #1d213f;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .input {
+    width: 100%;
+    background: #f1f2f5;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 20px;
+      margin: auto;
+      background-image: url(../../../assets/icons/blueSearch.svg);
+      background-size: contain;
+    }
+
+    &__text {
+      padding: 20px;
+      width: 80%;
+      box-sizing: border-box;
+      background-color: transparent;
+      border: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size16);
+      line-height: 19px;
+      color: #000;
+      outline: none;
+
+      &::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size16);
+        line-height: 19px;
+        color: #909ebb;
+      }
+    }
+  }
+}

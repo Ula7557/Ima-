@@ -1,0 +1,200 @@
+.Vacency_main_middle_lefts {
+  width: 65%;
+  .Vacency_main_middle_left {
+    box-sizing: border-box;
+    border: 1px solid #dde1ea;
+    margin-bottom: 40px;
+    .Vacency_main_middle_left_header {
+      padding-top: 32px;
+      padding-bottom: 34px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #dde1ea;
+      h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 24px;
+        color: #1d213f;
+        margin-left: 30px;
+      }
+      .bts {
+        border: 1.5px solid #0065dd;
+        box-sizing: border-box;
+        margin-right: 30px;
+        background: none;
+        cursor: pointer;
+        background-image: url("../../assets/icons/ICON\ \(2\).png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .Vacency_main_middle_left_inner {
+      padding-bottom: 30px;
+      padding-left: 30px;
+      h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: var(--font-size16);
+        line-height: 30px;
+        color: #1d213f;
+        margin-top: 30px;
+      }
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 24px;
+        color: #1d213f;
+      }
+      ul {
+        li {
+          list-style: none;
+          margin-left: 20px;
+          position: relative;
+        }
+        li:after {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background: #0065dd;
+          border-radius: 50px;
+          left: -20px;
+          top: 8px;
+        }
+      }
+    }
+  }
+}
+.showed{
+  display: none;
+}
+.Vacency_main_middle_left_new{
+  width: 100%;
+  .Vacency_main_middle_left {
+    box-sizing: border-box;
+    border-bottom: 1px solid #dde1ea;
+    &:nth-last-child(1){
+      border-bottom: 0px ;
+    }
+    .Vacency_main_middle_left_header {
+      padding-top: 32px;
+      padding-bottom: 34px;
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 24px;
+        color: #1d213f;
+        margin-left: 30px;
+      }
+      .bts {
+        border: 1.5px solid #0065dd;
+        box-sizing: border-box;
+        margin-right: 30px;
+        background: none;
+        cursor: pointer;
+        background-image: url("../../assets/icons/ICON\ \(2\).png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .Vacency_main_middle_left_inner {
+      padding-bottom: 30px;
+      padding-left: 30px;
+      h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: var(--font-size16);
+        line-height: 30px;
+        color: #1d213f;
+        margin-top: 30px;
+        margin-bottom: 31px;
+      }
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 24px;
+        color: #1d213f;
+      }
+      ul {
+        li {
+          list-style: none;
+          margin-left: 20px;
+          position: relative;
+          margin-bottom: 20px; 
+        }
+        li:after {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background: #0065dd;
+          border-radius: 50px;
+          left: -20px;
+          top: 8px;
+        }
+      }
+    }
+  }
+}
+.open {
+  display: none;
+}
+.change {
+  background: #0065dd;
+  border: 1px solid #0065dd;
+  box-sizing: border-box;
+  background-image: url("../../assets/icons/ICON\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+@media only screen and(max-width:978px) {
+  .Vacency_main_middle_lefts{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .Vacency_main_middle_lefts .Vacency_main_middle_left .Vacency_main_middle_left_header h1{
+    font-size: var(--font-size16);
+    margin-left: 20px;
+  }
+  .Vacency_main_middle_lefts .Vacency_main_middle_left .Vacency_main_middle_left_header{
+    align-items: center;
+    padding-bottom: 19px;
+    padding-top: 18px;
+  }
+  .Vacency_main_middle_lefts .Vacency_main_middle_left .Vacency_main_middle_left_header .bts{
+    margin-right: 20px;
+  }
+  .Vacency_main_middle_lefts .Vacency_main_middle_left .Vacency_main_middle_left_inner{
+    padding-left: 20px;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  .Vacency_main_middle_left_new .Vacency_main_middle_left .Vacency_main_middle_left_header{
+    flex-direction: row-reverse;
+  }
+}

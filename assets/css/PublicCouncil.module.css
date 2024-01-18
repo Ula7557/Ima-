@@ -1,0 +1,205 @@
+.public__council {
+  background: #f1f2f5;
+  padding: 36px 0 100px 0;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.public__council__inner {
+  background-color: #fff;
+  padding: 73px 70px 60px 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__inner {
+    padding: 48px 20px 27px 20px;
+  }
+}
+
+.public__council__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 17px;
+  }
+}
+
+.public__council__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: auto;
+  }
+}
+
+.public__council__links {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__links {
+    position: static;
+    overflow: auto;
+    width: 100%;
+  }
+  .public__council__links::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.public__council__holderr {
+  border: 1px solid #dde1ea;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__holderr {
+    position: static;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1500px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    overflow-x: scroll;
+    padding: 0;
+  }
+  .public__council__holderr::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.public__council__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #0065dd;
+  text-decoration: none;
+  display: block;
+  max-width: 234px;
+  padding: 26px 0;
+}
+
+.public__council__link:not(:last-child) {
+  border-bottom: 1px solid #dde1ea;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__link {
+    color: #000;
+    padding: 17px 0;
+    max-width: 100%;
+  }
+  .public__council__link:first-child {
+    border-bottom: 2px solid #0065dd;
+  }
+}
+
+.public__council__subtitle {
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 28px;
+  color: #1d213f;
+  max-width: 440px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__subtitle {
+    font-size: var(--font-size18);
+  }
+}
+
+.public__council__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 26px;
+  color: #1d213f;
+  max-width: 630px;
+}
+
+.public__council__right {
+  width: 60%;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__right {
+    width: 100%;
+  }
+}
+
+.public__council li {
+  max-width: 600px;
+  list-style-type: none;
+}
+
+.public__council__holder:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 968px) {
+  .public__council__holder:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+.public__council__info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 26px;
+  color: #8b91a9;
+  margin-top: 27px;
+  max-width: 630px;
+}
+/*# sourceMappingURL=PublicCouncil.module.css.map */

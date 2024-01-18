@@ -1,0 +1,49 @@
+.arbitraj_card_wrap {
+  width: 44%;
+  display: flex;
+//   border: 1px solid black;
+  padding: 30px;
+  .arbitraj_txt{
+    font-size: var(--font-size16);
+  }
+  &:hover{
+     box-shadow: 0px 20px 50px rgba(144, 158, 187, 0.2); 
+  }
+  img {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .donwload_wrapper{
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p{
+          color: #8B91A9;
+      }
+      button{
+          outline: none;
+          background-color: transparent;
+          border:none;
+          cursor: pointer;
+      }
+      img{
+          height: 17px;
+          width: 20px;
+      }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .arbitraj_card_wrap {
+  width: 100%;
+   padding: 20px 0 !important;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .arbitraj_card_wrap {
+  width: 100%;
+  padding: 20px 0;
+  }
+}

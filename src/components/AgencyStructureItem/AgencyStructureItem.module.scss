@@ -1,0 +1,41 @@
+.council__tableDataRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+   }
+}
+
+.council__tableDataRow:not(:last-child) {
+  border-bottom: 1px solid #dde1ea;
+  padding-bottom: 35px;
+}
+
+.council__tableid {
+  font-size: var(--font-size14);
+  line-height: 21px;
+  color: #8b91a9;
+  margin-right: 22px;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+   }
+}
+
+.council__tabledata {
+  width: 50%;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  font-weight: 400;
+  color: #1d213f;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    &:first-child {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+   }
+}

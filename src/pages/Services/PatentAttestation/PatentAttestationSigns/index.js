@@ -1,0 +1,1 @@
+export {default} from './PatentAttestationSigns.js'

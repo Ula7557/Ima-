@@ -1,0 +1,124 @@
+// reusable mixin part
+@mixin flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin marginLeft {
+  margin-left: 15px;
+}
+
+@mixin spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin btnStyleNone {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+// switcher
+.general_lang_modalWrap {
+  position: relative;
+
+  .lang_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+    @include btnStyleNone;
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+    height: 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 20px;
+      height: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 5055;
+      margin: auto;
+      left: 0px;
+      background-image: url(../../assets/images/Flag.png);
+    }
+  }
+
+  .lang_btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    @include btnStyleNone;
+    width: 120px;
+    padding: 5px 10px;
+    height: 20px;
+    margin-bottom: 5px;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 20px;
+      height: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 5055;
+      margin: auto;
+      left: 0;
+      // background-image: url(../../assets/icons/usaflag.png);
+      background-image: url(../../assets/images/Flag.png);
+    }
+
+    &:nth-child(2) {
+      &::before {
+        width: 20px;
+        height: 15px;
+        background-image: url(../../assets/images/latinFlag.png);
+      }
+    }
+
+    &:last-child {
+      &::before {
+        width: 20px;
+        height: 15px;
+        background-image: url(../../assets/icons/uzbekistanflag.png);
+      }
+    }
+  }
+
+  .lang_modal {
+    width: 120px;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 5px 0;
+    display: none;
+  }
+  .showed {
+    display: flex;
+  }
+  .lang_txt {
+    width: 120px;
+    flex-wrap: wrap;
+    // position: absolute;
+    padding: 5px 0;
+    background-color: #fff;
+    font-size: var(--font-size14);
+  }
+}

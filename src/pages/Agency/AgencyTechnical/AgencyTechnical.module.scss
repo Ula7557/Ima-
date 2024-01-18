@@ -1,0 +1,126 @@
+.agency__guide {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 26px 20px 80px 20px;
+  }
+
+  &__inner {
+    background-color: #fff;
+    margin-top: 26px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 48px 20px 27px 20px;
+    }
+  }
+}
+
+.council {
+  background-color: #fff;
+  padding: 60px 70px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0;
+  }
+}
+.Collegiom_bottom_main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .Collegiom_bottom_main_child {
+    margin-bottom: 30px;
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 20px 50px rgba(144, 158, 187, 0.2);
+    padding-top: 30px;
+    padding-bottom: 27px;
+    cursor: pointer;
+    span {
+      margin-left: 20px;
+    }
+    h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size16);
+      line-height: 21px;
+      color: #222222;
+    }
+    h4 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size16);
+      line-height: 21px;
+      color: #1d213f;
+    }
+    h5 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size14);
+      line-height: 21px;
+      color: #8b91a9;
+    }
+    img {
+      margin-left: 30px;
+    }
+  }
+  .Collegiom_bottom_main_child:hover {
+    background-image: url("../../../assets/icons/Vector\ \(32\).png");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+
+
+.council__title {
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 50px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 28px;
+   }
+}
+
+.council__table {
+  width: 100%;
+}
+
+.council__thead {
+  display: block;
+  background: #f1f2f5;
+  padding: 25px 30px;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+   }
+}
+
+.council__tablerow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.council__header {
+  text-align: left;
+  width: 50%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+}

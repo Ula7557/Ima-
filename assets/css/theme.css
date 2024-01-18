@@ -1,0 +1,16 @@
+:root {
+  --size: 1rem;
+  --grey-color: #8b91a9;
+  --black-color: #000;
+  --blue-color: #0065dd;
+  --grey-background-color: #f1f2f5;
+  --second-grey-color: #f8f8fa;
+  --blue-background--color: #0065dd;
+  --white-background-color: #fff;
+  --font-color-dark-blue: #1d213f;
+}
+
+[data-them-size="md"] {
+  --size: 30px;
+}
+/*# sourceMappingURL=theme.css.map */

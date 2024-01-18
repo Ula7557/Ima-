@@ -1,0 +1,116 @@
+.language-wrapper__main-btn {
+  border: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1D213F;
+  padding-left: 35px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  outline: none;
+}
+
+.language-wrapper__main-btn::before {
+  content: "";
+  width: 27px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 5055;
+  margin: auto;
+  left: 0px;
+  background-image: url(../../assets/images/Flag.png);
+}
+
+.language-wrapper__main-btn.uz-flag::before {
+  top: -3px;
+  background-image: url(../../assets/icons/uzbekistanflag.png);
+}
+
+.language-wrapper .langauges-holder {
+  display: none;
+}
+
+.language-wrapper .langauges-holder.languages-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  margin: auto;
+  width: 130px;
+  z-index: 120;
+  -webkit-box-shadow: 0px 0px 20px rgba(144, 158, 187, 0.15);
+          box-shadow: 0px 0px 20px rgba(144, 158, 187, 0.15);
+  background-color: #fff;
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr {
+  border: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1D213F;
+  padding: 10px 10px 10px 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  text-align: right;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  display: block;
+  position: relative;
+  outline: none;
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr.choosen {
+  color: #8B91A9;
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr:first-child::before {
+  content: "";
+  width: 27px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 8px;
+  z-index: 5055;
+  margin: auto;
+  left: 20px;
+  background-image: url(../../assets/images/Flag.png);
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr.uzb::before {
+  content: "";
+  width: 27px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 6px;
+  z-index: 5055;
+  margin: auto;
+  left: 20px;
+  background-image: url(../../assets/icons/uzbekistanflag.png);
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr:hover {
+  background: #F7F7F9;
+}
+
+.language-wrapper .langauges-holder.languages-show .language-wrapperr:active {
+  background: #F7F7F9;
+}
+/*# sourceMappingURL=language.css.map */

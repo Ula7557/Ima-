@@ -1,0 +1,67 @@
+.Collegiom_top_table_child {
+  position: relative;
+  display: flex;
+  padding-top: 34px;
+  padding-bottom: 35px;
+
+  h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1D213F;
+    width: 50%;
+    margin-left: 22px;
+    margin-bottom: 10px;
+  }
+  h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1D213F;
+  }
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size14);
+    line-height: 21px;
+    color: #8b91a9;
+  }
+}
+.Collegiom_top_table_child::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #dde1ea;
+  width: 100%;
+  top: 90px;
+}
+
+.Collegiom_top_table_child:nth-last-child(1) {
+  &::after {
+    display: none;
+  }
+}
+@media only screen and (max-width:500px) {
+  .Collegiom_top_table_child{
+    flex-direction: column;
+    p{
+      display: none;
+    }
+    h2{
+      margin-left: 0;
+    }
+  }
+  .Collegiom_top_table_child::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #dde1ea;
+    width: 100%;
+    top: 123px;
+  }
+
+}

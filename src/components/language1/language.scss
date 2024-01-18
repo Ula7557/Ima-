@@ -1,0 +1,115 @@
+.language-wrapper {
+    &__main-btn {
+        border: none;
+        background-color: transparent;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1D213F;
+        padding-left: 35px;
+        position: relative;
+        display: block;
+        cursor: pointer;
+        outline: none;
+
+        &::before {
+            content: "";
+            width: 27px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            z-index: 5055;
+            margin: auto;
+            left: -14px;
+            background-image: url(../../assets/images/Flag.png);
+        }
+
+        &.uz-flag {
+            &::before {
+                top: -3px;
+                background-image: url(../../assets/icons/uzbekistanflag.png);
+            }
+        }
+    }
+
+    .langauges-holder {
+        display: none;
+
+        &.languages-show {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 25px;
+            right: 0;
+            margin: auto;
+            width: 130px;
+            z-index: 120;
+            background-color: #fff;
+
+
+            .language-wrapperr {
+                border: none;
+                background-color: transparent;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: #1D213F;
+                padding: 10px 10px 10px 35px;
+                box-sizing: border-box;
+                cursor: pointer;
+                text-align: right;
+                transition: all ease 0.3s;
+                display: block;
+                position: relative;
+                outline: none;
+
+                &.choosen {
+                    color: #8B91A9;
+                }
+
+                &:first-child {
+                    &::before {
+                        content: "";
+                        width: 27px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        position: absolute;
+                        top: 8px;
+                        z-index: 5055;
+                        margin: auto;
+                        left: 20px;
+                        background-image: url(../../assets/images/Flag.png);
+                    }
+                }
+
+                &.uzb {
+                    &::before {
+                        content: "";
+                        width: 27px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        position: absolute;
+                        top: 6px;
+                        z-index: 5055;
+                        margin: auto;
+                        left: 20px;
+                        background-image: url(../../assets/icons/uzbekistanflag.png);
+                    }
+                }
+
+                &:hover {
+                    background: #F7F7F9;
+                }
+
+                &:active {
+                    background: #F7F7F9;
+                }
+            }
+        }
+    }
+}

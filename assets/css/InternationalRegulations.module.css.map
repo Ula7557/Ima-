@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,UAAU;CAC1B",
+    "sources": [
+        "../../src/pages/Activity/ActivityCooperation/InternationalRegulations/InternationalRegulations.module.scss"
+    ],
+    "names": [],
+    "file": "InternationalRegulations.module.css"
+}

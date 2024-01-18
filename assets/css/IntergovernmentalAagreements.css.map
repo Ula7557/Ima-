@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,6CAA6C,CAAA;EACzC,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,IAAI;EACf,aAAa,EAAG,iBAAiB;EACjC,cAAc,EAAE,CAAC;CAepB;;AApBD,AAMI,6CANyC,CAMzC,GAAG,CAAC;EACA,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,GAAG;EACV,aAAa,EAAE,CAAC;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CAIvB;;AAhBL,AAaQ,6CAbqC,CAMzC,GAAG,AAOE,eAAgB,CAAA,IAAI,EAAE;EACnB,aAAa,EAAE,CAAC;CACnB;;AAfT,AAiBI,6CAjByC,AAiBxC,eAAgB,CAAA,CAAC,EAAC;EACf,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "../../src/pages/Regulations/RegulationsInternational/IntergovernmentalAagreements/IntergovernmentalAagreements.scss"
+    ],
+    "names": [],
+    "file": "IntergovernmentalAagreements.css"
+}

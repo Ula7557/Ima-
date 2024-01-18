@@ -1,0 +1,38 @@
+.AwardedEmployees {
+  padding-bottom: 100px;
+  background: #f1f2f5;
+  padding-top: 35px;
+}
+
+.AwardedEmployees .AwardedEmployees_main {
+  margin-top: 35px;
+  background: #ffffff;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 63px;
+  padding-bottom: 102px;
+}
+
+.AwardedEmployees .AwardedEmployees_main .AwardedEmployees_main_title h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-left: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+  .AwardedEmployees .AwardedEmployees_main .AwardedEmployees_main_title h1 {
+    font-size: var(--font-size24);
+    margin-left: 20px;
+  }
+  .AwardedEmployees {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=AwardedEmployees.module.css.map */

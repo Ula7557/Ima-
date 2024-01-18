@@ -1,0 +1,97 @@
+.openData {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+  .inner_content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 26px;
+    padding: 63px 70px;
+  }
+  .open_data_title {
+    font-size: var(--font-size40);
+    line-height: 47px;
+    color: #1d213f;
+  }
+  .inner_content_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 0;
+    border-bottom: 1px solid #dde1ea;
+    margin-top: 54px;
+
+    .open_data_txt {
+      max-width: 600px;
+    }
+    .format_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        outline: none;
+        border: 1px solid #dde1ea;
+        box-sizing: border-box;
+        width: 50px;
+        height: 30px;
+        padding: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin-right: 10px;
+
+        &:hover {
+          border: 1px solid #0065dd;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .inner_content_item {
+    align-items: flex-start !important;
+    flex-direction: column;
+    width: 100% !important;
+     .open_data_txt {
+       margin-bottom: 20px;
+       max-width: 100% !important;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+   .inner_content{
+    padding: 47px 20px !important;
+  .inner_content_item {
+    align-items: flex-start !important;
+    flex-direction: column;
+    width: 100% !important;
+     .open_data_txt {
+       margin-bottom: 20px;
+       max-width: 100% !important;
+    }
+  }
+  .open_data_title{
+    font-size: var(--font-size24) !important;
+    line-height: 30px;
+}
+}
+}
+
+@media only screen and (max-width: 370px) {
+  .inner_content{
+    padding: 47px 20px !important;
+}
+  .inner_content_item {
+    align-items: flex-start !important;
+    flex-direction: column;
+    margin-top: 0 !important;
+  }
+  .open_data_title{
+    font-size: var(--font-size24) !important;
+    line-height: 30px;
+}
+}

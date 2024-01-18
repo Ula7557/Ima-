@@ -1,0 +1,48 @@
+.requisites__inner {
+  margin-top: 50px;
+}
+
+.main__title {
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+.currency__status {
+  color: #8b91a9;
+}
+
+.requisites__table {
+  width: 100%;
+}
+
+.requisites__thead {
+  display: block;
+  background: #f1f2f5;
+  padding: 25px 30px;
+}
+
+.requisites__tablerow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.requisites__header {
+  text-align: left;
+  width: 50%;
+}
+
+.requisites__big:first-child {
+  width: 50%;
+}
+
+.requisites__big:not(:first-child) {
+  width: 20%;
+}
+/*# sourceMappingURL=requisitesTable.module.css.map */

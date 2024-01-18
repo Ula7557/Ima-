@@ -1,0 +1,55 @@
+.council__tableDataRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 34px;
+}
+
+@media only screen and (max-width: 768px) {
+  .council__tableDataRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.council__tableDataRow:not(:last-child) {
+  border-bottom: 1px solid #dde1ea;
+  padding-bottom: 35px;
+}
+
+.council__tableid {
+  font-size: var(--font-size14);
+  line-height: 21px;
+  color: #8b91a9;
+  margin-right: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .council__tableid {
+    display: none;
+  }
+}
+
+.council__tabledata {
+  width: 50%;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  font-weight: 400;
+  color: #1d213f;
+}
+
+@media only screen and (max-width: 768px) {
+  .council__tabledata {
+    width: 100%;
+  }
+  .council__tabledata:first-child {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+}
+/*# sourceMappingURL=AgencyStructureItem.module.css.map */

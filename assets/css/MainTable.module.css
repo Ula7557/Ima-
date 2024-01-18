@@ -1,0 +1,32 @@
+.MainTable_table {
+  margin-bottom: 72px;
+}
+
+.MainTable_table table {
+  border-collapse: collapse;
+}
+
+.MainTable_table table tr th {
+  width: 25%;
+  padding: 24px 0px 25px 30px;
+  background: #f1f2f5;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+  text-align: left;
+}
+
+.MainTable_table table tr td {
+  padding: 24px 40px 25px 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+  text-decoration: none;
+}
+/*# sourceMappingURL=MainTable.module.css.map */

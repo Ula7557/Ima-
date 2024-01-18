@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&family=Open+Sans:wght@500;700&family=Poppins:wght@500&family=Roboto&display=swap");
+
+// ^^^^^^^ mixin part ^^^^^^
+
+@mixin spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin btnStyleNone {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@mixin noRepeat {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+// SECTIN1
+
+.container {
+  padding-top: 1px;
+  background-color: #fff;
+}
+.container_all {
+  background: #f1f2f5;
+  padding-top: 1px;
+}
+.section1 {
+  @include containerWidth;
+  .link_btn_wrap {
+    margin-top: 20px;
+    position: relative;
+    .link_btn_img {
+      @include btnStyleNone;
+      position: absolute;
+      right: -70px;
+      bottom: -50px;
+    }
+  }
+
+  .slider_below {
+    margin: 100px 0 100px 0;
+  }
+}
+
+// SECTION2
+
+.bg_div {
+  background-color: #f1f2f5;
+  padding: 102px 15px;
+
+  .section2 {
+    @include containerWidth;
+    .txt_wrap {
+      display: flex;
+      align-items: center;
+      margin-bottom: 53px;
+
+      .large_txt {
+        font-weight: 500px;
+        font-size: var(--font-size30);
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        color: #1d213f;
+        margin-right: 63px;
+      }
+      .underline_txt {
+        margin-right: 40px;
+        font-size: var(--font-size13);
+        line-height: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #1d213f;
+        border-bottom: 2px solid rgba(0, 101, 221, 1);
+        cursor: pointer;
+      }
+      .disabled_txt {
+        font-size: var(--font-size13);
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #909ebb;
+        margin-right: 40px;
+        cursor: pointer;
+        font-weight:500;
+      }
+      .activeTxt {
+        font-size: var(--font-size13);
+        line-height: 15px;
+        text-transform: uppercase;
+        color: rgba(29, 33, 63, 1);
+        margin-right: 40px;
+        cursor: pointer;
+      }
+    }
+    .card_container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+// SECTION 3
+
+.section3 {
+  background-color: #fff;
+  position: relative;
+  .round_div {
+    overflow: hidden;
+  }
+  .slider_bottom {
+    @include containerWidth;
+    // margin-top: 0;
+  }
+  .carusel_bottom {
+    @include containerWidth;
+  }
+  padding-top: 102px;
+  .slider_top {
+    .slide_txt1 {
+      font-size: var(--font-size30);
+      line-height: 35px;
+      color: #bcc5d6;
+      text-decoration: none;
+      border-bottom: 0;
+    }
+    .txt_flex {
+      @include spaceBetween;
+      width: 50%;
+    }
+    .disabledLink {
+      font-weight: 500;
+      font-size: var(--font-size30);
+      line-height: 35px;
+      color: #bcc5d6;
+      cursor: pointer;
+    }
+    .activeLink {
+      font-size: var(--font-size30);
+      line-height: 35px;
+      color: #1d213f;
+      cursor: pointer;
+    }
+    .slide_top_inner_wrap {
+      @include spaceBetween;
+      width: 24%;
+
+      a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: var(--font-size13);
+        line-height: 15px;
+        text-transform: uppercase;
+
+        color: #0065dd;
+      }
+    }
+    .btn_wrapper {
+      @include spaceBetween;
+      width: 30%;
+
+      button {
+        @include btnStyleNone;
+      }
+    }
+  }
+
+  /////////////
+  .news_wrapper {
+    border-bottom: 1px solid #dde1ea;
+
+    .news_item_wrapper {
+      @include spaceBetween;
+      margin-top: 48px;
+      width: 100%;
+
+      .news_item {
+        box-sizing: border-box;
+        width: 370px !important;
+        margin-right: 20px;
+        .news_img {
+          width: 100%;
+          margin-bottom: 26px;
+        }
+        .margin_bottom {
+          margin-bottom: 10px;
+          font-size: var(--font-size14);
+          line-height: 18px;
+          color: #1d213f;
+        }
+      }
+    }
+  }
+  .slider_bottom {
+    @include spaceBetween;
+    padding-top: 60px;
+    margin-top: 100px;
+    .txt_flex {
+      // @include spaceBetween;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      // width: 50%;
+
+      .media_flex_div {
+        display: flex;
+        // margin-top: 15px;
+        p {
+          font-size: var(--font-size13);
+        }
+      }
+    }
+    .slide_txt5 {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+      font-weight: 500;
+      font-size: var(--font-size30);
+      line-height: 35px;
+      color: #bcc5d6;
+      text-decoration: none;
+      border-bottom: 0;
+      cursor: pointer;
+    }
+    .slide_txt4{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size30);
+      line-height: 35px;
+      color: #1D213F;
+      margin-right: 73px;
+    }
+    .slide_top_inner_wrap {
+      @include spaceBetween;
+      width: 24%;
+
+      a {
+        text-decoration: none;
+        font-size: var(--font-size13);
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #0065dd;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+      }
+    }
+
+    .btn_wrapper {
+      @include spaceBetween;
+      width: 30%;
+
+      button {
+        @include btnStyleNone;
+      }
+    }
+  }
+}
+.section2_flex_txt{
+  display: flex;
+}
+
+// SECTION 5
+
+.section5 {
+  @include containerWidth;
+  padding-top: 102px;
+  padding-bottom: 80px;
+
+  .link_card {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  // services part
+  .section2 {
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  // services part
+  .section2 {
+    margin: 0 auto !important;
+    .txt_wrap {
+      .section2_flex_txt {   
+        display: flex;
+      }
+    }
+
+    .card_container {
+      display: flex;
+      overflow: scroll;
+      flex-wrap: nowrap !important;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+  .slide_top_inner_wrap {
+    //
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .slide_top_inner_wrap {
+    display: none !important;
+  }
+  .section3 .slider_bottom .txt_flex {
+    width: 100%;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  .media_flex_div {
+    display: flex;
+    p {
+      font-size: var(--font-size18) !important;
+    }
+  }
+}
+@media only screen and (max-width: 440px) {
+  // services part
+  .section2 {
+    margin: 0 auto !important;
+    .txt_wrap {
+      flex-wrap: wrap;
+      .section2_flex_txt {
+        display: flex;
+      }
+      .large_txt {
+        width: 100%;
+        font-size: var(--font-size24) !important;
+      }
+    }
+  }
+  .card_container {
+    overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  // mediateka responsive
+
+  .txt_flex {
+    flex-wrap: wrap;
+    &:nth-child(1) {
+      width: 100%;
+      // margin-bottom: 30px !important;
+      font-size: var(--font-size24) !important;
+    }
+  }
+  .slide_txt5 {
+    font-size: var(--font-size18) !important;
+  }
+  .flex_txt_media {
+    display: flex;
+    border-bottom: 1px solid rgba(221, 225, 234, 1);
+    margin-top: 20px;
+  }
+  .slide_top_inner_wrap {
+    display: none !important;
+  }
+  .media_flex_div {
+    display: flex;
+    margin-top: 15px;
+    p {
+      font-size: var(--font-size18) !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  // services part
+  .section2 {
+    margin: 0 auto !important;
+    .txt_wrap {
+      flex-wrap: wrap;
+      .section2_flex_txt {
+        display: flex;
+      }
+      .large_txt {
+        width: 100%;
+        font-size: var(--font-size24) !important;
+      }
+    }
+  }
+  .card_container {
+    overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  // mediateka responsive
+
+  .txt_flex {
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  .slide_txt5 {
+    font-size: var(--font-size18);
+  }
+  .flex_txt_media {
+    display: flex;
+    border-bottom: 1px solid rgba(221, 225, 234, 1);
+    margin-top: 20px;
+  }
+  .slide_top_inner_wrap {
+    display: none !important;
+  }
+  .media_flex_div {
+    display: flex;
+    margin-top: 15px;
+    p {
+      font-size: var(--font-size13) !important;
+    }
+  }
+
+  .underline_txt {
+    margin-right: 12px !important;
+  }
+}

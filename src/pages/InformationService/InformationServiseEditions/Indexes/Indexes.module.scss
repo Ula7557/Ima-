@@ -1,0 +1,9 @@
+.Indexes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item {
+        background-color: #fff !important;
+        margin-bottom: 40px !important;   
+    }
+}

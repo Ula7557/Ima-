@@ -1,0 +1,84 @@
+.agency__guide {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__guide {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.agency__guide__inner {
+  background-color: #fff;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__guide__inner {
+    padding: 48px 20px 27px 20px;
+  }
+}
+
+.council {
+  background-color: #fff;
+  padding: 60px 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .council {
+    padding: 0;
+  }
+}
+
+.council__title {
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .council__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.council__table {
+  width: 100%;
+}
+
+.council__thead {
+  display: block;
+  background: #f1f2f5;
+  padding: 25px 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .council__thead {
+    display: none;
+  }
+}
+
+.council__tablerow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.council__header {
+  text-align: left;
+  width: 50%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size16);
+  line-height: 21px;
+  color: #1d213f;
+}
+/*# sourceMappingURL=AgencyTechnical.module.css.map */

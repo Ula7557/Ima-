@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Home/News/EventsSlider/EventsSlider.module.scss"
+    ],
+    "names": [],
+    "file": "EventsSlider.module.css"
+}

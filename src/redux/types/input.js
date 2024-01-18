@@ -1,0 +1,5 @@
+const TOOGLE_INPUT = "TOOGLE_INPUT";
+
+export {
+    TOOGLE_INPUT
+}

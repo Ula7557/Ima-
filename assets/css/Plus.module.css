@@ -1,0 +1,45 @@
+.plus_btn {
+  margin-top: 32px;
+  margin-left: 70px;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border: 1.5px solid #0065dd;
+  background-color: transparent;
+}
+
+.plus_btn .plus_btn1 {
+  position: absolute;
+  width: 10px;
+  background-color: #0065dd;
+  height: 1px;
+  display: block;
+}
+
+.plus_btn .plus_btn1:nth-child(2) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 370px) {
+  .plus_btn {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .plus_btn {
+    margin-left: 0 !important;
+  }
+}
+/*# sourceMappingURL=Plus.module.css.map */

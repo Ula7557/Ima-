@@ -1,0 +1,42 @@
+.activity__statistics {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .activity__statistics {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.activity__statistics__inner {
+  padding: 65px 70px;
+  background-color: #fff;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .activity__statistics__inner {
+    padding: 48px 20px 27px 20px;
+    margin-bottom: 87px;
+    overflow-x: hidden;
+  }
+}
+
+.activity__statistics__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  margin-bottom: 48px;
+  color: #1d213f;
+}
+
+@media only screen and (max-width: 768px) {
+  .activity__statistics__title {
+    font-size: var(--font-size24);
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+/*# sourceMappingURL=ActivityStatistics.module.css.map */

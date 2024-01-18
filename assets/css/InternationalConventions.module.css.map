@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yCAAyC,CAAA;EACrC,cAAc,EAAE,CAAC;CAqCpB;;AAnCG,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EAH5C,AAIQ,yCAJiC,CAIjC,CAAC,CAAC;IACE,aAAa,EAAE,IAAI;GACtB;;;AANT,AASI,yCATqC,CASrC,mCAAmC,CAAC;EAChC,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;CAoBlB;;AAlBG,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EAfhD,AASI,yCATqC,CASrC,mCAAmC,CAAC;IAO5B,aAAa,EAAE,CAAC;GAiBvB;;;AAjCL,AAmBQ,yCAnBiC,CASrC,mCAAmC,CAU/B,GAAG,CAAC;EACA,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,CAAC;EAChB,MAAM,EAAC,GAAG;CASb;;AAhCT,AA6BY,yCA7B6B,CASrC,mCAAmC,CAU/B,GAAG,AAUE,MAAM,CAAA;EACP,MAAM,EAAE,CAAC;CACR",
+    "sources": [
+        "../../src/pages/Regulations/RegulationsInternational/InternationalConventions/InternationalConventions.module.scss"
+    ],
+    "names": [],
+    "file": "InternationalConventions.module.css"
+}

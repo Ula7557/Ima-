@@ -1,0 +1,64 @@
+.agency__department {
+  background-color: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__department {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.agency__department__inner {
+  background-color: #fff;
+  margin-top: 26px;
+  padding: 63px 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__department__inner {
+    padding: 48px 20px 27px 20px;
+  }
+}
+
+.agency__department__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 54px;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__department__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.agency__department__table {
+  width: 100%;
+}
+
+.agency__department__table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency__department__table tr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=AgencyDepartment.module.css.map */

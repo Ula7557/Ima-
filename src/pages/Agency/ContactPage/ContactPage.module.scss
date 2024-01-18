@@ -1,0 +1,201 @@
+@mixin spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@mixin formStyle {
+  outline: none;
+  border: none;
+}
+
+.general__wrapper {
+  box-sizing: border-box;
+  background-color: #f1f2f5;
+  padding: 26px 0 100px 0;
+  .inner_wrapper {
+    @include containerWidth;
+    margin-top: 26px;
+    background-color: #fff;
+    padding: 20px 50px;
+
+    .contact_title {
+      font-size: var(--font-size40);
+      line-height: 47px;
+      color: #1d213f;
+    }
+    .input_wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 63px;
+      font-family: "Montserrat", sans-serif;
+
+      .contact_items {
+        display: flex;
+        align-items: flex-start;
+        a {
+          text-decoration: none;
+        }
+      }
+      .flex img {
+        margin-right: 16px;
+      }
+      .flex {
+        margin-bottom: 10px;
+        font-size: var(--font-size14);
+        line-height: 18px;
+        color: #1d213f;
+      }
+      .left_side {
+        max-width: 40%;
+      }
+      .right_side {
+        max-width: 50%;
+      }
+
+      .item {
+        margin-bottom: 31px;
+      }
+      .contact_link {
+        line-height: 21px;
+        color: #0065dd;
+      }
+      .contact_link2 {
+        font-size: var(--font-size16);
+        line-height: 20px;
+        color: #8b91a9;
+      }
+      .bordered_div {
+        border: 1px solid #909ebb;
+        box-sizing: border-box;
+        padding: 9px 39px 9px 10px;
+        margin-bottom: 14px;
+      }
+    }
+
+    .form_wrapper {
+      padding: 40px;
+      width: 400px;
+      background: #f1f2f5;
+
+      h2,
+      input,
+      textarea,
+      button {
+        display: block;
+      }
+      input,
+      button,
+      textarea {
+        width: 320px;
+        height: 60px;
+        padding: 0px 20px;
+        margin-top: 20px;
+        @include formStyle;
+
+        ::placeholder {
+          font-size: var(--font-size16);
+          font-size: var(--font-size16);
+          line-height: 19px;
+          color: #909ebb;
+        }
+      }
+      .form_name {
+        position: absolute;
+
+        &:focus ~ .form_label,
+        .form_name:not(:placeholder-shown).form_name:not(:focus) ~ .form_label {
+          top: -13px;
+          font-size: var(--font-size14);
+          color: #999999;
+          left: 0;
+        }
+      }
+
+      .form_title {
+        font-size: var(--font-size24);
+        line-height: 28px;
+        color: #1d213f;
+        margin-bottom: 34px;
+      }
+      .form_textarea {
+        height: 150px;
+        padding-top: 9px;
+        resize: none;
+        margin-bottom: 10px;
+      }
+      .form_btn {
+        width: 360px;
+        // background: #0065dd;
+        font-weight: bold;
+        font-size: var(--font-size14);
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 20px;
+      }
+      .form_relative {
+        position: relative;
+        .error {
+          color: red;
+          font-size: var(--font-size14);
+          margin-top: 10px;
+        }
+        .form_label {
+          position: absolute;
+          z-index: 11;
+          top: 40px;
+          left: 20px;
+        }
+
+        // input:focus + label,
+        // input:not(:placeholder-shown) + label {
+        //   transform: translateY(-1em);
+        //   font-size: var(--font-size12);
+        // }
+
+        // input::placeholder {
+        //   color: transparent;
+        //   top: 20px;
+        // }
+        // textarea::placeholder {
+        //   font-size: var(--font-size16);
+        //   line-height: 19px;
+        // }
+      }
+    }
+
+    // table
+  }
+}
+.table_title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 38px;
+}
+@media only screen and (max-width:700px) {
+  .general__wrapper .inner_wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 
+}
+@media only screen and (max-width:500px) {
+   .table_title{
+     line-height: 30px;
+   }
+   .general__wrapper .inner_wrapper{
+     margin-left: 20px;
+     margin-right: 20px;
+   }
+}

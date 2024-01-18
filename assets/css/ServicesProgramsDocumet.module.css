@@ -1,0 +1,24 @@
+.ServicesProgramsDocumet .laws__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 21px;
+  color: #0065DD;
+  text-decoration: none;
+  display: block;
+  padding: 23px 0;
+  position: relative;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  font-family: "Roboto";
+}
+
+.ServicesProgramsDocumet .laws__link::after {
+  content: "";
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+/*# sourceMappingURL=ServicesProgramsDocumet.module.css.map */

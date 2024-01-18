@@ -1,0 +1,67 @@
+.ServicesInventionsScheme_item{
+    margin-left: 50px;
+    margin-right: 50px;
+    .ServicesInventionsScheme_item_header{
+        padding: 20px;
+        background: #F6F6F8;
+        border-radius: 5px;
+        p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: var(--font-size18);
+            line-height: 21px;
+            color: #1D213F;
+        }
+    }
+    .ServicesInventionsScheme_item_inner{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        span{
+            width: 20%;
+            h2{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: var(--font-size16);
+                line-height: 21px;
+                color: #1D213F;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: var(--font-size16);
+                line-height: 21px;
+                color: #1D213F;
+            }
+            &:nth-child(2){
+                width: 35%;
+            }
+        }
+
+    }
+}
+@media only screen and (max-width:625px) {
+    .ServicesInventionsScheme_item{
+        .ServicesInventionsScheme_item_inner{
+            flex-direction: column;
+            span{
+                width: auto !important;
+                h2{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px)  {
+    .ServicesInventionsScheme_item{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}

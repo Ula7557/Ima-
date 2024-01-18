@@ -1,0 +1,47 @@
+.agency__department {
+  background-color: #f1f2f5;
+  padding: 26px 0 100px 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 26px 20px 80px 20px;
+  }
+
+  &__inner {
+    background-color: #fff;
+    margin-top: 26px;
+    padding: 63px 70px;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 768px) {
+      padding: 48px 20px 27px 20px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size40);
+    line-height: 47px;
+    color: #1d213f;
+    margin-bottom: 54px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 28px;
+     }
+  }
+
+  &__table {
+    width: 100%;
+
+    tr {
+      display: flex;
+      justify-content: space-between;
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+  }
+  }
+}

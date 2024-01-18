@@ -1,0 +1,114 @@
+.AwardedEmployees_main_item {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-left: 70px;
+  margin-right: 79px;
+  border-bottom: 1px solid #dde1ea;
+  display: flex;
+  align-items: flex-start;
+  span {
+    margin-left: 30px;
+    max-width: 470px;
+    width: 100%;
+    h1 {
+      display: flex;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size18);
+      line-height: 24px;
+      color: #1d213f;
+      margin-bottom: 10px;
+      max-width: 200px;
+      width: 100%;
+      img{
+        object-fit: contain;
+        width: 60px;
+        margin-left: 50px;
+        display: none;
+      }
+    }
+    h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size16);
+      line-height: 18px;
+      color: #8b91a9;
+      margin-bottom: 35px;
+    }
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size16);
+      line-height: 24px;
+      color: #1d213f;
+      margin-bottom: 23px;
+      height: 100px;
+      overflow: hidden;
+    }
+    button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: var(--font-size13);
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #0065dd;
+      border: 0;
+      background: none;
+      cursor: pointer;
+    }
+  }
+  img:nth-last-child(1) {
+    margin-left: auto;
+  }
+}
+.open {
+  height: auto !important;
+}
+.AwardedEmployees_main_item:nth-last-child(1) {
+  border-bottom: 0;
+}
+@media only screen and (max-width:978px) {
+  .AwardedEmployees_main_item{
+    flex-direction: column;
+    align-items: center;
+  }
+  .AwardedEmployees_main_item span h1 img{
+    display: block;
+  }
+  .AwardedEmployees_main_item span h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .AwardedEmployees_main_item .award{
+    display: none;
+  }
+  .AwardedEmployees_main_item img{
+    margin-bottom: 24px;
+  }
+  .AwardedEmployees_main_item span button{
+    display: none;
+  }
+  .AwardedEmployees_main_item span p{
+    height: 280px !important;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+      width: 3px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background: #1D213F;
+    }
+
+  }
+
+}
+@media only screen and (max-width:500px) {
+  .AwardedEmployees_main_item{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+}

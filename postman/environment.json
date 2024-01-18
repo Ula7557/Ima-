@@ -1,0 +1,19 @@
+{
+  "id": "15518492-3249-4871-8c29-a4a4b8263ce6",
+  "name": "IMA SERVER",
+  "values": [
+    {
+      "key": "url",
+      "value": "https://ima-api.eurosoft.dev",
+      "enabled": true
+    },
+    {
+      "key": "api_token",
+      "value": "p12378",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2022-08-22T12:06:35.789Z",
+  "_postman_exported_using": "Postman/8.12.4"
+}

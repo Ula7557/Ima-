@@ -1,0 +1,2 @@
+.video__holder{display:none}.video__holder iframe{display:none !important}.video__holder__visible{width:100vw;height:100vh;position:fixed;top:0;left:0;background:#1D213F;opacity:0.9;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;z-index:5522;overflow:hidden}.video__holder__visible iframe{display:block !important}
+/*# sourceMappingURL=VideoHolder.module.min.css.map */

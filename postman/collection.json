@@ -1,0 +1,676 @@
+{
+  "info": {
+    "_postman_id": "cc648c09-76f1-4e7e-817e-be39d7134298",
+    "name": "IMA BACKEND",
+    "description": "<h3>Eurosoft.uz loyihasi uchun API Documentation.</h3>\n<br>\n<p>Ushbu API Eurosoft CMF asosida yasalgan bo'lib, API dan foydalanish uchun <a href=\"https://cmf-api.dacoreit.com/\">https://cmf-api.dacoreit.com/</a> ga tashrif buyurishingiz mumkin.</p>",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Pages",
+      "item": [
+        {
+          "name": "News",
+          "item": [
+            {
+              "name": "list news",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{url}}/content/all/news?lang=en",
+                  "host": ["{{url}}"],
+                  "path": ["content", "all", "news"],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "en"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "single new",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{url}}/content/one/news?id=1&lang=en",
+                  "host": ["{{url}}"],
+                  "path": ["content", "one", "news"],
+                  "query": [
+                    {
+                      "key": "id",
+                      "value": "1"
+                    },
+                    {
+                      "key": "lang",
+                      "value": "en"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "News-category List",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{url}}/segment/all/news_category?lang=en",
+                  "host": ["{{url}}"],
+                  "path": ["segment", "all", "news_category"],
+                  "query": [
+                    {
+                      "key": "lang",
+                      "value": "en"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "news category single item",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{url}}/segment/one/news_category?id=1&lang=en",
+                  "host": ["{{url}}"],
+                  "path": ["segment", "one", "news_category"],
+                  "query": [
+                    {
+                      "key": "id",
+                      "value": "1"
+                    },
+                    {
+                      "key": "lang",
+                      "value": "en"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Agentlik",
+          "item": [
+            {
+              "name": "Agentlik lead list item",
+              "item": [
+                {
+                  "name": "Lead agentlik list item",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/all/lead?lang=en",
+                      "host": ["{{url}}"],
+                      "path": ["content", "all", "lead"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "lead agentlik single item",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/lead?id=3&lang=en",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "lead"],
+                      "query": [
+                        {
+                          "key": "id",
+                          "value": "3"
+                        },
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Agentlik lead page",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/page?lang=en&id=15",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "page"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        },
+                        {
+                          "key": "id",
+                          "value": "15"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Agentlik bo'limlari",
+              "item": [
+                {
+                  "name": "Agentlik bo'limlari list item",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/all/agency_part?lang=en",
+                      "host": ["{{url}}"],
+                      "path": ["content", "all", "agency_part"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Agentlik bo'limlari single item",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/agency_part?id=3&lang=en",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "agency_part"],
+                      "query": [
+                        {
+                          "key": "id",
+                          "value": "3"
+                        },
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                },
+                {
+                  "name": "Agentlik bo'limlari page",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/page?lang=en&id=15",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "page"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        },
+                        {
+                          "key": "id",
+                          "value": "15"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Agentlik haqida",
+              "item": [
+                {
+                  "name": "Agentlik haqida page",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/page?lang=en&id=15",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "page"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        },
+                        {
+                          "key": "id",
+                          "value": "15"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            },
+            {
+              "name": "Agentlik strukturasi",
+              "item": [
+                {
+                  "name": "Agentlik strukturasi page",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/content/one/page?lang=en&id=15",
+                      "host": ["{{url}}"],
+                      "path": ["content", "one", "page"],
+                      "query": [
+                        {
+                          "key": "lang",
+                          "value": "en"
+                        },
+                        {
+                          "key": "id",
+                          "value": "15"
+                        }
+                      ]
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "item": [
+        {
+          "name": "Get all",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/system/settings/all?lang=uz&sort=DESC&sortby=id",
+              "host": ["{{url}}"],
+              "path": ["system", "settings", "all"],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "uz"
+                },
+                {
+                  "key": "sort",
+                  "value": "DESC"
+                },
+                {
+                  "key": "sortby",
+                  "value": "id"
+                },
+                {
+                  "key": "group",
+                  "value": "site",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "<p><strong>lang</strong> - Get settings by language key<br><strong>group</strong> - Get by settings group<br><strong>sort</strong> - Sort (Ex: ASC, DESC)<br><strong>sortby</strong> - Sort by field (Ex: title)</p>"
+          },
+          "response": []
+        },
+        {
+          "name": "Get one",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/system/settings/one?key=telegram_number",
+              "host": ["{{url}}"],
+              "path": ["system", "settings", "one"],
+              "query": [
+                {
+                  "key": "key",
+                  "value": "telegram_number"
+                }
+              ]
+            },
+            "description": "<p><strong>lang</strong> - Get settings by language key<br><strong>id</strong> - Get by settings ID<br><strong>settings_key</strong> - Get by settings key</p>"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Language",
+      "item": [
+        {
+          "name": "Get all",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/system/language/all",
+              "host": ["{{url}}"],
+              "path": ["system", "language", "all"]
+            },
+            "description": "<p><strong>status</strong> - Get languages by status<br><strong>sort</strong> - Sort (Ex: ASC, DESC)<br><strong>sortby</strong> - Sort by field (Ex: title)</p>"
+          },
+          "response": []
+        },
+        {
+          "name": "Get one",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/system/language/one?lang=en",
+              "host": ["{{url}}"],
+              "path": ["system", "language", "one"],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "en"
+                }
+              ]
+            },
+            "description": "<p><strong>id</strong> - Get by language ID<br><strong>lang</strong> - Get language by language code<br><strong>locale</strong> - Get by language locale</p>"
+          },
+          "response": []
+        },
+        {
+          "name": "Get default",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/system/language/default",
+              "host": ["{{url}}"],
+              "path": ["system", "language", "default"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Translations",
+      "item": [
+        {
+          "name": "Get translations",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n    \"Content\",\n    \"Blog\",\n    \"Home\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{url}}/translation?lang=en",
+              "host": ["{{url}}"],
+              "path": ["translation"],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "en"
+                }
+              ]
+            },
+            "description": "<p>\n<strong>Params:</strong></br>\n<strong>lang</strong> - Language <em>[Required]</em> <br>\n <br>\n<strong>Body:</strong></br>\n<strong>raw</strong> - Array of words <em>[Required]</em> <br>\n<strong>type</strong> - JSON<br>\n<strong>sample</strong> - <code>[\"word1\",\"word2\", \"word3\"]</code>"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "item": [
+        {
+          "name": "List all menus",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/menu/all?lang=uz_krill&sort=sort",
+              "host": ["{{url}}"],
+              "path": ["menu", "all"],
+              "query": [
+                {
+                  "key": "lang",
+                  "value": "uz_krill"
+                },
+                {
+                  "key": "sort",
+                  "value": "sort"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Single menu (TAYYOR EMAS)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/menu/one?id=1",
+              "host": ["{{url}}"],
+              "path": ["menu", "one"],
+              "query": [
+                {
+                  "key": "id",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Sign in",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "",
+                "value": "",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "username",
+                  "value": "specialuser",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{url}}/account/signin",
+              "host": ["{{url}}"],
+              "path": ["account", "signin"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sign out",
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": [
+                {
+                  "key": "value",
+                  "value": "p12378",
+                  "type": "string"
+                },
+                {
+                  "key": "key",
+                  "value": "api-token",
+                  "type": "string"
+                },
+                {
+                  "key": "in",
+                  "value": "header",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Auth-Token",
+                "value": "6f5f2bf13392b49c152cd20d8437c7d3",
+                "type": "text"
+              },
+              {
+                "key": "X-Auth-Signature",
+                "value": "86557c401faa1c0c8d5d7b46e7c8d9f1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "url": {
+              "raw": "{{url}}/account/signout",
+              "host": ["{{url}}"],
+              "path": ["account", "signout"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Test API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/site/test",
+          "host": ["{{url}}"],
+          "path": ["site", "test"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Contact form",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "fghfghfghfgh",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "sdfsdfsdfsdf@sdsd.sd",
+              "type": "text"
+            },
+            {
+              "key": "message",
+              "value": "2yuiiuiuiuyiuyiuyiuyiuy",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{url}}/forms/contact-form",
+          "host": ["{{url}}"],
+          "path": ["forms", "contact-form"],
+          "query": [
+            {
+              "key": "lang",
+              "value": "uz",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "<p><strong>name</strong> - Name <em>[Required]</em> <br><strong>email</strong> - Email <em>[Required]</em> <br><strong>message</strong> - Message <em>[Required]</em> </p>"
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "in",
+        "value": "header",
+        "type": "string"
+      },
+      {
+        "key": "value",
+        "value": "{{api_token}}",
+        "type": "string"
+      },
+      {
+        "key": "key",
+        "value": "api-token",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ]
+}

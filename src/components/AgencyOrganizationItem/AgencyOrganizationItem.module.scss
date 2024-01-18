@@ -1,0 +1,118 @@
+.organization__item {
+  width: 100%;
+  border-bottom: 1px solid #dde1ea;
+
+  td {
+    padding: 35px 30px;
+
+    &:first-child {
+      display: flex;
+    }
+
+    &:nth-child(2) {
+      padding-top: 10px;
+    }
+
+    &:nth-child(3) {
+      padding-top: 0;
+    }
+  }
+
+  .mobile {
+    padding-left: 30px;
+    position: relative;
+
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size14);
+      line-height: 21px;
+      color: #1d213f;
+      text-decoration: none;
+      display: block;
+    }
+
+    &::before {
+      content: "";
+      width: 11px;
+      height: 17px;
+      background-repeat: no-repeat;
+      background-image: url(../../assets/icons/mobile.svg);
+      position: absolute;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  .tel {
+    padding-left: 30px;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size14);
+    line-height: 21px;
+    color: #1d213f;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: var(--font-size14);
+      line-height: 21px;
+      color: #1d213f;
+      text-decoration: none;
+      display: block;
+    }
+
+    &::before {
+      content: "";
+      width: 14px;
+      height: 14px;
+      background-repeat: no-repeat;
+      background-image: url(../../assets/icons/tel.svg);
+      position: absolute;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  .organization__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: #1d213f;
+  }
+
+  .organization__address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size14);
+    line-height: 21px;
+    max-width: 134px;
+    color: #1d213f;
+  }
+
+  .organization__work {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size14);
+    line-height: 21px;
+    color: #1d213f;
+    margin-bottom: 6px;
+  }
+
+  .organization__info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size14);
+    line-height: 21px;
+    color: #8b91a9;
+
+    &:not(:last-child) {
+      margin-bottom: 6px;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.arbitraj_wrapper {
+  background-color: #f1f2f5;
+  padding: 26px 0 100px 0;
+  .arbitraj_inner_wrapper {
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 26px;
+    padding: 63px 70px;
+    .arbitraj_title {
+      font-size: var(--font-size40);
+      line-height: 47px;
+      color: #1d213f;
+    }
+    .btn_wrapper {
+      display: flex;
+      margin-top: 40px;
+      border-bottom: 1px solid #dde1ea;
+      padding-top: 17px;
+
+      button {
+        color: #8b91a9;
+        margin-right: 40px;
+        outline: none;
+        border: none;
+        background: transparent;
+        padding-bottom: 17px;
+        cursor: pointer;
+      }
+      .black_btn {
+        color: black;
+        border-bottom: 1px solid black;
+      }
+    }
+    .arbitraj_card {
+      margin-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        text-decoration: none;
+        color: #1d213f;
+        width: 48%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        a {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .arbitraj_inner_wrapper {
+    margin-top: 26px;
+    padding: 47px 20px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    .arbitraj_title {
+      font-size: var(--font-size24) !important;
+      line-height: 30px !important;
+    }
+  }
+   .arbitraj_card {
+    a {
+      width: 100% !important;
+      padding: 10px !important;
+      border: 0 !important;
+      border-bottom: 2px solid #f1f2f5 !important ;
+      margin-bottom: 0 !important;
+
+      a {
+        border: none !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .arbitraj_inner_wrapper {
+    margin-top: 26px;
+    padding: 47px 20px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    .arbitraj_title {
+      font-size: var(--font-size24) !important;
+      line-height: 30px !important;
+    }
+  }
+
+  .arbitraj_card {
+    a {
+      width: 100% !important;
+      padding: 10px !important;
+      border: 0 !important;
+      border-bottom: 2px solid #f1f2f5 !important ;
+      margin-bottom: 0 !important;
+
+      a {
+        border: none !important;
+      }
+    }
+  }
+}

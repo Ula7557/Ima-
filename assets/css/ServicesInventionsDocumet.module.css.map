@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Services/ServicesInventions/ServicesInventionsDocumet/ServicesInventionsDocumet.module.scss"
+    ],
+    "names": [],
+    "file": "ServicesInventionsDocumet.module.css"
+}

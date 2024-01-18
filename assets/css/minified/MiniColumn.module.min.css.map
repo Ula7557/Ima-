@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,MADI,CACJ,MAAM,AAAC,CACL,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,kBAAkB,CAC7B,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,OAAO,CACd,aAAa,CAAE,IAAI,CACpB",
+    "sources": [
+        "../../../src/components/MiniColumn/MiniColumn.module.scss"
+    ],
+    "names": [],
+    "file": "MiniColumn.module.min.css"
+}

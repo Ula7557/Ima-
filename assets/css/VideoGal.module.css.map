@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Home/Media/VideoGal/VideoGal.module.scss"
+    ],
+    "names": [],
+    "file": "VideoGal.module.css"
+}

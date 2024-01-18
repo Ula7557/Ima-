@@ -1,0 +1,132 @@
+.agency__about {
+  background: #f1f2f5;
+  padding: 26px 0 97px 0;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 768px) {
+    padding: 26px 20px 80px 20px;
+  }
+
+  &__inner {
+    margin-top: 26px;
+    padding: 64px 70px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 102px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 48px 20px 27px 20px;
+      margin-bottom: 82px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size40);
+    line-height: 47px;
+    color: #1d213f;
+    margin-bottom: 48px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: var(--font-size24);
+      line-height: 28px;
+      margin-bottom: 28px;
+     }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 1172px) {
+      flex-direction: column;
+     }
+  }
+
+  &__img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    position: sticky;
+    transition: all ease 0.3s;
+    top: 80px;
+
+    @media only screen and (max-width: 1172px) {
+      position: static;
+      width: 100%;
+      margin-bottom: 52px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      height: 210px;
+    }
+  }
+
+  &__right {
+    width: 50%;
+
+    @media only screen and (max-width: 1172px) {
+      width: 100%;
+     }
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size24);
+    line-height: 28px;
+    color: #1d213f;
+    margin-bottom: 35px;
+    text-align: left;
+  }
+
+  &__main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size30);
+    line-height: 35px;
+    color: #1d213f;
+    margin-bottom: 47px;
+
+    @media only screen and (max-width: 1172px) {
+      font-size: var(--font-size24);
+      margin-bottom: 36px;
+     }
+  }
+
+  &__holder {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 1172px) {
+      flex-direction: column;
+     }
+  }
+
+  &__card {
+    max-width: 360px;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: #1d213f;
+  }
+
+  &__info {
+    margin-right: 4px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-size16);
+    line-height: 21px;
+    color: grey;
+    margin-top: 15px;
+    a {
+      color: #0065dd;
+    }
+  }
+}

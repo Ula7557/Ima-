@@ -1,0 +1,58 @@
+.AttestationSigns .AttestationSigns_inner p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 82px;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 24px;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle ul {
+  list-style: none;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle ul li {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle ul li:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #0065DD;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle ul .inner {
+  margin-top: 30px;
+}
+
+.AttestationSigns .AttestationSigns_inner .AttestationSigns_inner_middle ul .inner::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+/*# sourceMappingURL=AttestationSigns.module.css.map */

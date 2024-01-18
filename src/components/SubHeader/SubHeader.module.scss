@@ -1,0 +1,115 @@
+.subheader {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+
+  li {
+    list-style-type: none;
+    position: relative;
+
+    &:first-child {
+      .subheader__link {
+        padding-left: 0;
+      }
+    }
+
+    &:hover {
+      .subheader__wrapper {
+        position: absolute;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0px 10px 50px rgba(144, 158, 187, 0.2);
+        padding: 15px 0;
+        box-sizing: border-box;
+        width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        z-index: 8282;
+      }
+    }
+
+    &:last-child {
+      &:hover {
+        .subheader__wrapper {
+          right: 0 !important;
+          left: auto;
+        }
+      }
+    }
+  }
+
+  &__left {
+    width: 50%;
+
+    .subheader__subLink {
+      padding-right: 0 !important;
+    }
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  &__wrapper {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+
+    a {
+      display: block !important;
+      font-style: normal !important;
+      font-weight: normal !important;
+      font-size: var(--font-size16) !important;
+      line-height: 18px !important;
+      color: #8b91a9 !important;
+      padding: 10px 50px !important;
+      box-sizing: border-box;
+      text-transform: none !important;
+      width: 100%;
+
+      &:hover {
+        color: #000 !important;
+        background: #f8f8fa;
+      }
+    }
+  }
+
+  li:hover {
+    .subheader__link::after {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: var(--font-size13);
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #1d213f;
+    position: relative;
+    padding: 5px 29px;
+
+    &::after {
+      content: "";
+      width: 13px;
+      height: 13px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      transition: all ease 0.3s;
+      right: 6px;
+      margin: auto;
+      background-repeat: no-repeat;
+      background-image: url(../../assets/icons/link.png);
+    }
+  }
+}
+@media only screen and (max-width:968px){
+  .subheader{
+    display: none;
+  }
+}

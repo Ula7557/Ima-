@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../src/pages/Services/ServicesInventions/ServicesInventionsRules/ServicesInventionsRules.module.scss"
+    ],
+    "names": [],
+    "file": "ServicesInventionsRules.module.min.css"
+}

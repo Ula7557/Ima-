@@ -1,0 +1,62 @@
+.PatentRegisterationRules .PatentRegisterationRules_top h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_top p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 85px;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 87px;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_bottom .PatentRegisterationRules_bottom_left {
+  width: 55%;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_bottom .PatentRegisterationRules_bottom_left h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_bottom .PatentRegisterationRules_bottom_right {
+  width: 46%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PatentRegisterationRules .PatentRegisterationRules_bottom .PatentRegisterationRules_bottom_right img {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=PatentRegisterationRules.module.css.map */

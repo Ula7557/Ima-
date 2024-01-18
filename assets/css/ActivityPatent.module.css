@@ -1,0 +1,89 @@
+.ActivityPatent {
+  background: #f1f2f5;
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+
+.ActivityPatent .ActivityPatent_inner {
+  margin-top: 35px;
+  background: #ffffff;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 63px;
+}
+
+.ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_title {
+  padding-top: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_title h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+}
+
+.ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_main .ActivityPatent_inner_main_item {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  .ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_title h1 {
+    font-size: var(--font-size24) !important;
+  }
+  .ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_title img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ActivityPatent .ActivityPatent_inner .ActivityPatent_inner_title {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 48px;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=ActivityPatent.module.css.map */

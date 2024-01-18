@@ -1,0 +1,73 @@
+.decress {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .decress {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.decress__inner {
+  background-color: #fff;
+  padding: 65px 70px;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .decress__inner {
+    padding: 48px 20px 27px 20px;
+    margin-bottom: 87px;
+  }
+}
+
+.decress__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 54px;
+}
+
+@media only screen and (max-width: 768px) {
+  .decress__title {
+    font-size: var(--font-size24);
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.decress__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 920px;
+  justify-content: space-between;
+}
+
+.decress__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 24px;
+  color: #0065dd;
+  text-decoration: none;
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .decress__link {
+    font-size: var(--font-size16);
+  }
+  .decress__link:first-child {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=DecressUzb.module.css.map */

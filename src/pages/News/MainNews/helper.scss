@@ -1,0 +1,102 @@
+.pagination {
+    display: flex !important;
+    &::-webkit-scrollbar {
+        width: 0px;
+      }
+
+    @media only screen and (max-width: 620px) {
+        justify-content: center;
+        max-width: 300px !important;
+        overflow-x: scroll !important;
+        padding-bottom: 30px;
+
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .sr-only {
+        display: none;
+    }
+
+    .page-item {
+        background: #FFFFFF;
+        // width: 40px;
+        padding: 10px 15px;
+        // height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        &:first-child {
+            margin-right: 30px;
+
+            span {
+                font-size: 0;
+                position: relative;
+                display: block;
+
+                &::before {
+                    content: '';
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    top: -7px;
+                    left: -6px;
+                    margin: auto;
+                    background-repeat: no-repeat;
+                    background-image: url(../../../assets/icons/arrow-left.png);
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:last-child {
+            span {
+                font-size: 0;
+                position: relative;
+                display: block;
+
+                &::before {
+                    content: '';
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    top: -7px;
+                    left: -6px;
+                    transform: rotate(180deg);
+                    margin: auto;
+                    background-repeat: no-repeat;
+                    background-image: url(../../../assets/icons/arrow-left.png);
+                    background-size: contain;
+                }
+            }
+        }
+
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #0065DD;
+        }
+
+        &.active {
+            background: #0065DD !important;
+            border-bottom: 0px solid #000 !important;
+
+            a {
+                color: #fff !important;
+            }
+        }
+
+        &.disabled {
+            opacity: 0.3;
+        }
+    }
+}

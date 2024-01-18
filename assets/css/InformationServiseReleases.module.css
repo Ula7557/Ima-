@@ -1,0 +1,60 @@
+.InformationServiseReleases {
+  background: #f1f2f5;
+  padding-top: 26px;
+  padding-bottom: 100px;
+}
+
+.InformationServiseReleases .InformationServiseReleases_inner {
+  margin-top: 26px;
+  background: #ffffff;
+  padding: 61px 70px 70px 70px;
+}
+
+.InformationServiseReleases .InformationServiseReleases_inner h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 50px;
+  color: #1d213f;
+  margin-bottom: 49px;
+}
+
+.InformationServiseReleases .InformationServiseReleases_inner .InformationServiseReleases_inner_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.InformationServiseReleases .InformationServiseReleases_inner .InformationServiseReleases_inner_main a {
+  background-color: #fff;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.InformationServiseReleases .InformationServiseReleases_inner .InformationServiseReleases_inner_main a:hover img:nth-last-child(1) {
+  margin-top: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .InformationServiseReleases .InformationServiseReleases_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .InformationServiseReleases .InformationServiseReleases_inner h1 {
+    font-size: var(--font-size24);
+    line-height: 30px;
+  }
+  .InformationServiseReleases .InformationServiseReleases_inner .InformationServiseReleases_inner_main a {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=InformationServiseReleases.module.css.map */

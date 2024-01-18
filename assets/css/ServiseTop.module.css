@@ -1,0 +1,80 @@
+.ServiseTop {
+  background: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 52px;
+  border-radius: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.ServiseTop .ServiseTop_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ServiseTop .ServiseTop_left input {
+  width: 310px;
+  padding: 16px 0px 15px 60px;
+  background: #F1F2F5;
+  border-radius: 5px;
+  margin-right: 60px;
+  margin-right: 60px;
+  border: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8B91A9;
+}
+
+.ServiseTop .ServiseTop_left input:focus {
+  outline: none;
+}
+
+.ServiseTop .ServiseTop_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ServiseTop .ServiseTop_right .image_item {
+  background: #F1F2F5;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ServiseTop .ServiseTop_right .Language {
+  margin-right: 60px;
+}
+/*# sourceMappingURL=ServiseTop.module.css.map */

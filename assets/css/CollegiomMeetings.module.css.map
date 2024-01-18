@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/components/CollegiomMeetings/CollegiomMeetings.module.scss"
+    ],
+    "names": [],
+    "file": "CollegiomMeetings.module.css"
+}

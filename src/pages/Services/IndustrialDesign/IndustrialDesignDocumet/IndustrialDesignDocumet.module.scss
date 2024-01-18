@@ -1,0 +1,23 @@
+.IndustrialDesignDocumet{
+    .laws__link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: var(--font-size18);
+        line-height: 21px;
+        color: #0065DD;
+        text-decoration: none;
+        display: block;
+        padding: 23px 0;
+        position: relative;
+        transition: all ease 0.4s;
+        font-family: "Roboto";
+    
+        &::after {
+          content: "";
+          width: 0;
+          height: 0;
+          overflow: hidden;
+          transition: all ease 0.2s;
+        }
+    }
+}

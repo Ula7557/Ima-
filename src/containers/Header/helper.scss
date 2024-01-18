@@ -1,0 +1,33 @@
+.header-btns{
+    background-color: transparent;
+    border: none;
+    &::before {
+        content: '';
+        width: 27px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 5055;
+        margin: auto;
+        left: 10px;
+        background-image: url(../../assets/images/Flag.png) !important;
+    }
+
+    &.uzb::before {
+        content: '';
+        width: 27px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 5055;
+        margin: auto;
+        left: 10px;
+        background-image: url(../../assets/icons/uzbekistanflag.png) !important;
+    }
+}

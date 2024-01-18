@@ -1,0 +1,100 @@
+.laws {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .laws {
+    padding: 26px 20px 80px 20px;
+  }
+}
+
+.laws__inner {
+  background-color: #fff;
+  padding: 65px 70px;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .laws__inner {
+    padding: 48px 20px 27px 20px;
+    margin-bottom: 87px;
+    overflow-x: hidden;
+  }
+}
+
+.laws__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 47px;
+  color: #1d213f;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .laws__title {
+    font-size: var(--font-size24);
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.laws__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 21px;
+  color: #0065dd;
+  text-decoration: none;
+  display: block;
+  padding: 23px 0;
+  position: relative;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .laws__link {
+    font-size: var(--font-size16);
+    padding-right: 40px;
+  }
+}
+
+.laws__link::after {
+  content: "";
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.laws__link:hover {
+  -webkit-box-shadow: 0px 10px 50px rgba(144, 158, 187, 0.2);
+          box-shadow: 0px 10px 50px rgba(144, 158, 187, 0.2);
+}
+
+.laws__link:hover::after {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../../assets/icons/right-arrow.svg);
+}
+
+.laws__link:not(:last-child) {
+  border-bottom: 1px solid #dde1ea;
+}
+
+.laws__link h4 {
+  font-weight: normal;
+  font-family: "Roboto";
+  max-width: 738px;
+}
+/*# sourceMappingURL=LawsUzb.module.css.map */

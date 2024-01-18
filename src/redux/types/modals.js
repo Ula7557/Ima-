@@ -1,0 +1,5 @@
+const TOOGLE_HAMBURGER = "TOOGLE_HAMBURGER";
+
+export {
+    TOOGLE_HAMBURGER
+}

@@ -1,0 +1,112 @@
+.Tenders {
+  background: #f1f2f5;
+  padding-top: 26px;
+}
+
+.Tenders .Tenders_inner {
+  margin-top: 26px;
+  background: #ffffff;
+  padding: 61px 70px 70px 70px;
+}
+
+.Tenders .Tenders_inner h1 {
+  width: 70%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size40);
+  line-height: 50px;
+  color: #1d213f;
+  margin-bottom: 49px;
+}
+
+.Tenders .Tenders_inner .Tenderss_innner_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Tenders .Tenders_inner .Tenderss_innner_item img {
+  margin-bottom: 61px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tenders .Tenders_inner .Tenderss_innner_item p {
+  width: 45%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--font-size18);
+  line-height: 26px;
+  color: #1d213f;
+  margin-bottom: 70px;
+}
+
+.Tenders .Tenders_inner .Tenders_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 0;
+}
+
+.Tenders .Tenders_inner .Tenders_bottom div {
+  background-color: #fff;
+  width: 48%;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Tenders .Tenders_inner .Tenders_bottom div:nth-last-child(-n + 3) {
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Tenders .Tenders_inner .Tenderss_innner_item img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 978px) {
+  .Tenders .Tenders_inner .Tenderss_innner_item p {
+    width: auto;
+  }
+  .Tenders .Tenders_inner .Tenders_bottom div {
+    width: auto;
+  }
+  .Tenders .Tenders_inner h1 {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Tenders .Tenders_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Tenders .Tenders_inner h1 {
+    font-size: var(--font-size24);
+    line-height: 30px;
+  }
+  .Tenders .Tenders_inner .Tenderss_innner_item p {
+    font-size: var(--font-size16);
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=Tenders.module.css.map */

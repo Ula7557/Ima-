@@ -1,0 +1,13 @@
+.chart {
+  margin-bottom: 94px;
+}
+
+.chart .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size24);
+  line-height: 21px;
+  color: #1d213f;
+  margin-bottom: 43px;
+}
+/*# sourceMappingURL=BigColumn.module.css.map */

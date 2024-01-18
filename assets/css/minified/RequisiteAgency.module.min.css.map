@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,AAAC,CACf,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,iBAAiB,CAO7B,AALI,AAAD,yBAAQ,AAAC,CACL,gBAAgB,CAAE,IAAI,CACtB,OAAO,CAAE,mBAAmB,CAC5B,UAAU,CAAE,IAAI,CACnB",
+    "sources": [
+        "../../../src/pages/Agency/RequisiteAgency/RequisiteAgency.module.scss"
+    ],
+    "names": [],
+    "file": "RequisiteAgency.module.min.css"
+}

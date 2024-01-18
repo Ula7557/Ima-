@@ -1,0 +1,39 @@
+.agency__guide {
+  background: #f1f2f5;
+  padding: 26px 0 100px 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 26px 20px 80px 20px;
+  }
+
+  &__inner {
+    padding: 63px 70px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 32px;
+
+    @media only screen and (max-width: 768px) {
+      padding: 48px 20px 27px 20px;
+    }
+  }
+
+  // .management {
+  //     padding: 63px 30px 70px 70px;
+  //     background-color: #fff;
+  //     margin-top: 100px;
+  //     margin-bottom: 70px;
+  // }
+
+  .management__title {
+      font-weight: 500;
+      font-size: var(--font-size40);
+      line-height: 47px;
+      color: #1D213F;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 28px;
+       }
+  }
+}

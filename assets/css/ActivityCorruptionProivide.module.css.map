@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Activity/ActivityCorruption/ActivityCorruptionProivide/ActivityCorruptionProivide.module.scss"
+    ],
+    "names": [],
+    "file": "ActivityCorruptionProivide.module.css"
+}

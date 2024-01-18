@@ -1,0 +1,43 @@
+.video__holder {
+    display: none;
+
+    iframe {
+        display: none !important;
+    }
+
+    &__visible {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #1D213F;
+        opacity: 0.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5522;
+        overflow: hidden;
+
+        iframe {
+            display: block !important;
+        }
+    }
+}
+
+.video__holder__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+    iframe {
+        @media only screen and (max-width: 768px) {
+            height: 400px !important;
+        }
+
+        @media only screen and (max-width: 574px) {
+            height: 300px !important;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.PatentRegisterationApplication h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0065DD;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.PatentRegisterationApplication p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.PatentRegisterationApplication ul {
+  list-style: none;
+}
+
+.PatentRegisterationApplication ul li {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1D213F;
+  margin-bottom: 19px;
+}
+/*# sourceMappingURL=PatentRegisterationApplication.module.css.map */

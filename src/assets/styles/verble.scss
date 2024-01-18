@@ -1,0 +1,34 @@
+$font-size12: 12px;
+$font-size13: 13px;
+$font-size14: 14px;
+$font-size16: 16px;
+$font-size18: 18px;
+$font-size24: 24px;
+$font-size30: 30px;
+$font-size36: 36px;
+$font-size40: 40px;
+$font-sizerem: 1.5rem;
+:export {
+  font12: $font-size12;
+  font13: $font-size13;
+  font14: $font-size14;
+  font16: $font-size16;
+  font18: $font-size18;
+  font24: $font-size24;
+  font30: $font-size30;
+  font36: $font-size36;
+  font40: $font-size40;
+  fontsizerem:$font-sizerem;
+}
+@media only screen and (max-width:1200px){
+  $font-size12: 10px;
+  $font-size13: 11px;
+  $font-size14: 12px;
+  $font-size16: 14px;
+  $font-size18: 16px;
+  $font-size24: 22px;
+  $font-size30: 28px;
+  $font-size36: 34px;
+  $font-size40: 38px;
+  $font-sizerem: 1.4rem;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/pages/Home/News/NewsSlider/NewsSlider.module.scss"
+    ],
+    "names": [],
+    "file": "NewsSlider.module.css"
+}
